@@ -1,0 +1,9 @@
+# Ignore the API Key file (CRITICAL!)
+.env
+
+# Ignore Python cache and Jupyter checkpoints
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore Jupyter notebook outputs (optional, but keeps commits clean)
+*.ipynb_checkpoints
