@@ -1,0 +1,5 @@
+We need to run OPF on a 3-bus triangle grid. Bus 1 is the reference.
+Bus 2 has a load of 100 MW.
+Generator A is at Bus 1. It costs $30 per megawatt, with a max capacity of 200 MW.
+Generator B is at Bus 3. It's a gas plant with a max of 150 MW.
+The lines connect 1 to 2, 2 to 3, and 1 to 3. They all have a limit of 100 MW.

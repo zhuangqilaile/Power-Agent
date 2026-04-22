@@ -1,0 +1,19 @@
+Please calculate the dispatch for a 3-bus network. Bus 1 is the reference bus.
+
+Generators:
+
+Coal Plant at Bus 1: Min 50 MW, Max 400 MW. Costs: $100 no-load, $20/MW linear, 0.05 quadratic.
+
+Gas Plant at Bus 2: Min 0 MW, Max 300 MW. Costs: $50 no-load, $40/MW linear, 0.1 quadratic.
+
+Loads:
+
+City Load at Bus 3: 350 MW.
+
+Transmission Lines:
+
+Line 1-2: Connects Bus 1 to Bus 2. Reactance 0.02, Max Flow 500 MW.
+
+Line 2-3: Connects Bus 2 to Bus 3. Reactance 0.02, Max Flow 500 MW.
+
+Line 1-3: Connects Bus 1 to Bus 3. Reactance 0.02, Max Flow 200 MW.

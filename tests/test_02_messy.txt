@@ -1,0 +1,9 @@
+Morning folks, we've got a weird situation on the Valley Grid today. 
+Let's set the North Station as our reference. North Station has a big hydro dam on it. 
+Water is free, so zero costs across the board, and it can push 500 MW max. No minimum.
+Down at South Station, the load is heavy, about 400 MW. We have a backup diesel generator there just in case. 
+It's pricey: $400 to start, $80 a megawatt, and a 0.2 squared factor. Maxes out at 150 MW.
+For the wires, the direct "Highway" line from North to South has a reactance of 0.01 and can take 250 MW. 
+There's also an older route that goes from North Station to the East Substation (reactance 0.05, limit 100 MW), 
+and then from East Substation down to South Station (reactance 0.05, limit 100 MW). 
+East Substation doesn't have any load or generation, it's just a pass-through. Find the cheapest dispatch.
