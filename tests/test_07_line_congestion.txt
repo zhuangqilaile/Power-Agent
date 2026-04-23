@@ -1,0 +1,12 @@
+We need to find the cheapest generation schedule. Bus 1 is reference.
+
+Generator Big Coal at Bus 1: 100 MW minimum, 500 MW maximum. Cost: $500 no-load, $10/MW, 0.02 quadratic.
+Generator Tiny Gas at Bus 2: 0 MW minimum, 50 MW maximum. Cost: $20 no-load, $80/MW, 0.5 quadratic.
+
+Load: Bus 2 requires 200 MW.
+
+Transmission Lines:
+
+Line 1-2: Reactance 0.01, Max Flow 100 MW.
+
+There is no other path between Bus 1 and Bus 2.

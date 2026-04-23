@@ -1,0 +1,18 @@
+Hey team, here is the data for the Alpha-Omega grid we discussed at the 9:00 AM meeting.
+
+We have three buses. Bus 1 and Bus 2 don't have any load right now, but Bus 3 is connected 
+to the new industrial park which draws exactly 250 MW of power. 
+The industrial park cost $45 million to build back in 2018, so it's a huge asset.
+
+For generation, we have two plants. 
+The "Alpha Coal" plant is at Bus 1. It was built in 1985 and has 4 massive cooling towers. 
+The historical construction cost was $2.5 billion. For the actual dispatch, the linear cost is $15 per MW, 
+and the no-load cost is $50. It can generate up to 300 MW.
+
+The "Omega Gas" plant is at Bus 2. We just bought this last year for $120 million. 
+It's a peaking plant, so the linear cost is much higher at $60 per MW. Max capacity is 150 MW.
+
+Transmission lines:
+Line 1-2 goes over the mountains. It is 45 miles long, has a reactance of 0.05, and can handle a max flow of 400 MW. We are planning a $5 million upgrade for it next year.
+Line 2-3 is a short 12-mile jump. Reactance is 0.04, limit is 400 MW.
+Line 1-3 is the oldest line, built in 1970. Reactance is 0.08, and the limit is strictly 200 MW.

@@ -1,0 +1,21 @@
+Optimize dispatch for a 4-bus ring network. Bus 1 is the reference bus.
+
+Generators:
+
+Solar Farm at Bus 1: 0 MW minimum, 200 MW maximum. Costs: $5 no-load, $15/MW, 0.01 quadratic.
+Wind Farm at Bus 2: 0 MW minimum, 180 MW maximum. Costs: $3 no-load, $12/MW, 0.008 quadratic.
+Gas Peaker at Bus 4: 0 MW minimum, 100 MW maximum. Costs: $80 no-load, $70/MW, 0.3 quadratic.
+
+Loads:
+
+Bus 1: 0 MW
+Bus 2: 0 MW
+Bus 3: 120 MW
+Bus 4: 80 MW
+
+Transmission Lines (forming a ring):
+
+Line 1-2: Reactance 0.01, Max Flow 250 MW.
+Line 2-3: Reactance 0.02, Max Flow 200 MW.
+Line 3-4: Reactance 0.03, Max Flow 150 MW.
+Line 4-1: Reactance 0.04, Max Flow 180 MW.

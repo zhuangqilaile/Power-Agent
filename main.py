@@ -79,7 +79,7 @@ def extract_grid_data(prompt_text: str):
         "Grid Text to Extract:\n"
     )
     response = client.models.generate_content(
-        model='gemini-2.5-flash',
+        model='gemini-3.1-flash-lite-preview',
         contents=strict_instructions + prompt_text,
         config=types.GenerateContentConfig(
             response_mime_type="application/json",

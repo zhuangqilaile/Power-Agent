@@ -1,0 +1,24 @@
+Perform economic dispatch on the IEEE 5-bus test system. Bus 1 is the reference bus.
+
+Generators:
+
+Gen 1 at Bus 1: Min 10 MW, Max 150 MW. Cost: $10/MW linear, 0.02 quadratic.
+Gen 2 at Bus 2: Min 5 MW, Max 100 MW. Cost: $20/MW linear, 0.04 quadratic.
+Gen 3 at Bus 3: Min 0 MW, Max 80 MW. Cost: $30/MW linear, 0.06 quadratic.
+
+Loads:
+
+Bus 1: 0 MW
+Bus 2: 60 MW
+Bus 3: 70 MW
+Bus 4: 50 MW
+Bus 5: 40 MW
+
+Transmission Lines:
+
+Line 1-2: Reactance 0.02, Max Flow 200 MW.
+Line 1-4: Reactance 0.04, Max Flow 150 MW.
+Line 2-3: Reactance 0.02, Max Flow 200 MW.
+Line 2-4: Reactance 0.06, Max Flow 100 MW.
+Line 3-5: Reactance 0.03, Max Flow 150 MW.
+Line 4-5: Reactance 0.05, Max Flow 120 MW.

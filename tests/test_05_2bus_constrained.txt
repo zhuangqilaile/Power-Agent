@@ -1,0 +1,6 @@
+Run OPF for a simple 2-bus corridor. Bus A is the reference.
+
+Bus A has Generator Alpha: No-load cost $200, linear cost $50/MW, quadratic 0.15. Capacity: 0 to 300 MW.
+Bus B has 250 MW of load and Generator Beta: No-load cost $100, linear cost $60/MW, quadratic 0.2. Capacity: 0 to 200 MW.
+
+A single transmission line connects Bus A to Bus B. Reactance 0.1, flow limit 150 MW.
