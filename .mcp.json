@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "power_agent_mcp": {
+      "command": "python",
+      "args": ["C:\\Users\\Lenovo\\Desktop\\ECE394J Data Analytics\\Project\\power_agent_mcp.py"]
+    }
+  }
+}

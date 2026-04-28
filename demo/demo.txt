@@ -1,0 +1,8 @@
+We've got our main "Cheap Base" plant sitting at Bus 1. It can push out up to 400 megawatts and costs us $15 per megawatt. 
+We also have that backup "Expensive Peaker" over at Bus 2. It's smaller, capping out at 200 MW, and hurts the wallet at $60 per megawatt.
+
+Right now, neither Bus 1 nor Bus 2 has any local demand. However, the city over at Bus 3 is drawing a heavy 250 MW load.
+
+All three buses are connected in a loop. The lines from Bus 1 to Bus 2, and from Bus 2 to Bus 3, are both pretty robust—they 
+share a 0.01 reactance and can handle 300 MW of flow each. 
+But that direct tie from Bus 1 to Bus 3 is a major bottleneck. It also has a 0.01 reactance, but its thermal limit is strictly capped at 100 MW.

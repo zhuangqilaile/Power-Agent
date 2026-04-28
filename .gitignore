@@ -7,3 +7,5 @@ __pycache__/
 
 # Ignore Jupyter notebook outputs (optional, but keeps commits clean)
 *.ipynb_checkpoints
+
+PowerMCP/
